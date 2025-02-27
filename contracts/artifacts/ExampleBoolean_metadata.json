@@ -1,0 +1,71 @@
+{
+	"compiler": {
+		"version": "0.8.14+commit.80d49f37"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "OurBoolean",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bool",
+						"name": "_setBool",
+						"type": "bool"
+					}
+				],
+				"name": "setBoolean",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ExampleBoolean.sol": "ExampleBoolean"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ExampleBoolean.sol": {
+			"keccak256": "0x7d387374ae3b9b6bc73b30be2d0a9ad0dfe0787c34640a338ea32caf92c8bbcd",
+			"urls": [
+				"bzz-raw://a352159aa8c8430dfc02fd81fb7a448961d253a5da3e21888f87225c86f6e2f7",
+				"dweb:/ipfs/QmbpAZWCCNEyqqdakztLBjYC63BG1tAsbJRRvKDzERKegP"
+			]
+		}
+	},
+	"version": 1
+}
